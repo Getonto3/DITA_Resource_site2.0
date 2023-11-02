@@ -6,7 +6,8 @@ body {
   color: #585d74;
 }
 .topnav {
-  background-color:#375BDC;
+  text-align: right;
+  background-color:#192f59;
   color:#ffffff;
   padding:10px;
 }
