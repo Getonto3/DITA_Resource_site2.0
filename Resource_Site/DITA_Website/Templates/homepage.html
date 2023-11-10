@@ -1,16 +1,134 @@
 {% extends "master.html" %}
-{% block title %}
-  DITA
-{% endblock %}
 
+{%load static%}
 
 {% block content %}
-<div class="main">
-  <h1> Welcome to the Daystar Information Technology
-    Association  Resource Lab (DITA)</h1>
+ <!-- ======= Hero Section ======= -->
+ <section id="hero" class="d-flex justify-content-center align-items-center">
+  <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+    <h1><br>We Are DITA.</h1>
+    <h2>A Community Of Tech Enthusiast Passionate About Bringing IMpact Through Technology</h2>
+  </div>
+</section><!-- End Hero -->
 
-  <h3>Members</h3>
-  
-  <p>Check out all our <a href="members/">members</a></p>
-</div>
-{% endblock %}
+<main id="main">
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+          <img src="/static/img/DITA-kesha.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>What is DITA?</h3>
+          <p >
+            DITA is first of all a community. We learn together and grow together. We strive for excellence as upcoming professionals. We are quick to embrace new members and introduce them into our culture. We are a tech hub. Technology is our surname. In DITA, you matter.
+            Within the walls of DITA, a sense of intellectual camaraderie thrives as members engage in stimulating conversations and share their expertise. The lab fosters a culture of continuous learning and provides a platform for students to sharpen their skills and explore new frontiers in computer science.
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Why Us Section ======= -->
+  <section id="why-us" class="why-us">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-lg-4 d-flex align-items-stretch">
+          <div class="content">
+            <h3>Why Choose DITA?</h3>
+            <p>
+            DITA is a hub of activity, hosting various events such as coding competitions, workshops, and seminars. Here, individuals with a shared passion for technology come together to inspire and challenge each other, propelling their knowledge and capabilities to new heights.</p>
+           
+          </div>
+        </div>
+        <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-xl-4 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Community</h4>
+                  <p>Discover the Vibrant Community of DITA: Daystar University's Resource Lab for Computer Science Enthusiasts</div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Empowerment</h4>
+                  <p>DITA It serves as a meeting ground for brilliant minds who gather to work, collaborate, and exchange ideas, pushing the boundaries of innovation and progress.</div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bx bx-images"></i>
+                  <h4>Networking</h4>
+                  <p>DITA gives you the perfect platform to meet like minded individuals to share and exchange new inovative ideas</div>
+              </div>
+            </div>
+          </div><!-- End .content-->
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Why Us Section -->
+
+  <!-- ======= Popular Courses Section ======= -->
+  <section id="popular-courses" class="courses">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>What we offer</p>
+      </div>
+
+      <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="course-item">
+            <img src="" class="img-fluid" alt="...">
+            <div class="course-content">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4>Hardware</h4>
+              </div>
+
+              <h3><a href="hardware/">Hardware repair and replacement</a></h3>
+              <p>Does your laptop need repair or replacement. DITA has got you.Bring your device at the Resource lab and leave the rest to us </div>
+          </div>
+        </div> <!-- End Course Item-->
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="course-item">
+            <img src="" class="img-fluid" alt="...">
+            <div class="course-content">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4>Software</h4>
+              </div>
+
+              <h3><a href="software/">Software updates</a></h3>
+              <p>Does your laptop need software installation or update. DITA has got you.Bring your device at the Resource lab and leave the rest to us</p>
+            </div>
+          </div>
+        </div> <!-- End Course Item-->
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="course-item">
+            <img src="" class="img-fluid" alt="...">
+            <div class="course-content">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4>Tutor</h4>
+              </div>
+
+              <h3><a href="">Tutoring sessions</a></h3>
+              <p>Need any help in matters classwork? Worry no more DITA has got you.Book a tutoring session with some of our peer tutors</p>
+            </div>
+          </div>
+        </div> <!-- End Course Item-->
+
+      </div>
+
+    </div>
+  </section><!-- End Popular Courses Section -->
+</main><!-- End #main -->
+{% endblock content %}
